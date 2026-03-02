@@ -68,12 +68,12 @@
       'tl.2.desc':  'Joined a startup as a junior developer. Shipped fast, learned faster.',
       'tl.3.year':  '2023', 'tl.3.title': 'Went freelance',
       'tl.3.desc':  'Started working with international clients on exciting projects.',
-      'tl.4.year':  '2025', 'tl.4.title': 'Now',
+      'tl.4.year':  '2026', 'tl.4.title': 'Now',
       'tl.4.desc':  'Building ambitious things and always looking for the next challenge.',
       'contact.p':        'I\'m always open to new opportunities, collaborations, or just a good conversation. Drop me a line.',
-      'contact.email':    'youremail@example.com',
-      'contact.github':   'github.com/yourusername',
-      'contact.linkedin': 'linkedin.com/in/yourprofile',
+      'contact.email':    'hamzakahveci447@gmail.com',
+      'contact.github':   'github.com/gb0u',
+      'contact.linkedin': 'linkedin.com/in/hamza-kahveci',
       'form.name':    'Full Name',
       'form.email':   'Email Address',
       'form.subject': 'Subject',
@@ -81,7 +81,7 @@
       'form.send':    'Send Message',
       'form.success': "Message sent! I'll get back to you soon.",
       'form.error':   'Something went wrong. Please try again.',
-      'footer.copy':  '\u00a9 2025 Hamza Kahveci. All rights reserved.'
+      'footer.copy':  '\u00a9 2026 Hamza Kahveci. All rights reserved.'
     },
 
     tr: {
@@ -142,12 +142,12 @@
       'tl.2.desc':  'Bir startupa junior geli\u015ftirici olarak kat\u0131ld\u0131m. H\u0131zl\u0131 g\u00f6nderdim, daha h\u0131zl\u0131 \u00f6\u011frendim.',
       'tl.3.year':  '2023', 'tl.3.title': 'Serbest \u00e7al\u0131\u015fmaya ba\u015flad\u0131m',
       'tl.3.desc':  'Uluslararas\u0131 m\u00fc\u015fterilerle heyecan verici projeler \u00fczerinde \u00e7al\u0131\u015fmaya ba\u015flad\u0131m.',
-      'tl.4.year':  '2025', 'tl.4.title': '\u015eimdi',
+      'tl.4.year':  '2026', 'tl.4.title': '\u015eimdi',
       'tl.4.desc':  '\u0130ddial\u0131 \u015feyler in\u015fa ediyorum ve her zaman bir sonraki zorlu\u011fu ar\u0131yorum.',
       'contact.p':        'Her zaman yeni f\u0131rsatlara, i\u015fbirliklere veya sadece g\u00fczel bir sohbete a\u00e7\u0131\u011f\u0131m. Mesaj b\u0131rak.',
-      'contact.email':    'senemail@ornek.com',
-      'contact.github':   'github.com/kullaniciadin',
-      'contact.linkedin': 'linkedin.com/in/profilin',
+      'contact.email':    'hamzakahveci447@gmail.com',
+      'contact.github':   'github.com/gb0u',
+      'contact.linkedin': 'linkedin.com/in/hamza-kahveci',
       'form.name':    'Ad Soyad',
       'form.email':   'E-posta Adresi',
       'form.subject': 'Konu',
@@ -155,7 +155,7 @@
       'form.send':    'Mesaj G\u00f6nder',
       'form.success': 'Mesaj\u0131n iletildi! Yak\u0131nda d\u00f6n\u00fc\u015f yapaca\u011f\u0131m.',
       'form.error':   'Bir \u015feyler ters gitti. L\u00fctfen tekrar dene.',
-      'footer.copy':  '\u00a9 2025 Hamza Kahveci. T\u00fcm haklar\u0131 sakl\u0131d\u0131r.'
+      'footer.copy':  '\u00a9 2026 Hamza Kahveci. T\u00fcm haklar\u0131 sakl\u0131d\u0131r.'
     }
   };
 
