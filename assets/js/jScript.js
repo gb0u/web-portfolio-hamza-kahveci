@@ -331,13 +331,23 @@
   }
 
   /* ── Active nav link ── */
-  function initActiveNav() {
+   function initActiveNav() {
+  var page = window.location.pathname.split('/').pop() || 'index.html';
+  document.querySelectorAll('.nav-link').forEach(function(a) {
+    var href = (a.getAttribute('href') || '').split('/').pop();
+    // Normalize: if href is empty or just '.', it's the current page
+    if (!href || href === '.') href = page;
+    a.classList.toggle('active', href === page);
+  });
+}
+  /*function initActiveNav() {
     var page = window.location.pathname.split('/').pop() || 'index.html';
     document.querySelectorAll('.nav-link').forEach(function(a) {
       var href = (a.getAttribute('href') || '').split('/').pop();
       a.classList.toggle('active', href === page);
     });
   }
+  */
 
   /* ── Contact Form ── */
   function initContactForm() {
