@@ -48,8 +48,9 @@ ul { list-style: none; }
   pointer-events: none;
   z-index: 9999;
   transform: translate(-50%, -50%);
-  transition: transform 0.1s, width 0.2s, height 0.2s, background 0.2s;
-  mix-blend-mode: difference;
+  transition: width 0.2s ease, height 0.2s ease, opacity 0.3s ease;
+  opacity: 0; /* JS reveals on first mousemove */
+  box-shadow: 0 0 8px var(--red-glow);
 }
 #cursor-ring {
   position: fixed;
@@ -59,10 +60,9 @@ ul { list-style: none; }
   pointer-events: none;
   z-index: 9998;
   transform: translate(-50%, -50%);
-  transition: transform 0.18s ease-out, width 0.3s, height 0.3s, opacity 0.3s;
-  opacity: 0.6;
+  transition: width 0.25s ease, height 0.25s ease, opacity 0.3s ease, border-color 0.2s ease;
+  opacity: 0; /* JS reveals on first mousemove */
 }
-body:hover #cursor { opacity: 1; }
 
 /* ── Scan-line Overlay ── */
 body::before {
